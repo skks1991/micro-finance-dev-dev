@@ -63,8 +63,7 @@
     <label class="absolute left-2 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-gray-500">Savings</label>
   </div>
 
-  <!-- Profit (hidden) -->
-   <div class="relative hidden">
+  <div class="relative">
     <input type="number" name="profit" step="0.01" readonly
            class="peer h-12 w-full border rounded px-2 pt-4 bg-gray-100 placeholder-transparent focus:outline-none"
            placeholder="Profit" />
@@ -78,8 +77,7 @@
     <label class="absolute left-2 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-gray-500">Withdraw</label>
   </div>
 
-  <!-- Total (hidden) -->
-   <div class="relative hidden">
+  <div class="relative">
     <input type="number" name="total" readonly
            class="peer h-12 w-full border rounded px-2 pt-4 bg-gray-100 placeholder-transparent focus:outline-none"
            placeholder="Total" />
@@ -100,16 +98,14 @@
     <label class="absolute left-2 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-gray-500">Instalment</label>
   </div>
 
-  <!-- Instalment No (hidden) -->
-   <div class="relative hidden">
+  <div class="relative">
     <input type="number" name="instalment_no" readonly
            class="peer h-12 w-full border rounded px-2 pt-4 bg-gray-100 placeholder-transparent focus:outline-none"
            placeholder="Instalment No" />
     <label class="absolute left-2 top-2 text-gray-500 text-sm transition-all peer-placeholder-shown:top-3 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-focus:top-2 peer-focus:text-sm peer-focus:text-gray-500">Instalment No</label>
   </div>
 
-  <!-- Instalment Due (hidden) -->
-   <div class="relative hidden">
+  <div class="relative">
     <input type="number" name="instalment_due" readonly
            class="peer h-12 w-full border rounded px-2 pt-4 bg-gray-100 placeholder-transparent focus:outline-none"
            placeholder="Instalment Due" />
@@ -174,7 +170,7 @@
     const memberEl = document.getElementById('member');
     const form = document.getElementById('tx-form');
     const table = document.getElementById('tx-table');
-    const scriptURL = 'https://script.google.com/macros/s/AKfycby0klVcdztDsiE--l1J7Tw0K5Vd8A7_stG1yz6Iz4Bc3s5k7UoQ3xkaJye7Ym6bHGF6/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzAtDRtt6FBuMIzUuY3w7luFGbaxhg41l07aVuk9op-Rr0dUjaVdIXmRSikMjF9gdSD/exec';
 
     const MEMBERS = [
       'member1','member2','member3','member4','member5',
